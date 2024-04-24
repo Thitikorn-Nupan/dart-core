@@ -1,0 +1,18 @@
+# Every language has a mechanism for managing external packages
+# As, Maven or Gradle for Java So, The package manager for Dart is pub
+# File pubsec.yaml. YAML is the acronym for Yet Another Markup Language.
+# The pub tool can be used to download all various libraries that an application requires
+#
+# ******* The important pub commands *********
+# pub get : Helps to get all packages your application is depending on.
+# pub upgrade : Upgrades all your dependencies to a newer version
+# pub build : This s used for building your web application and it will create a build folder , with all related scripts in it
+# pub help : This will give you help for all different pub commands.
+name: 'dart_core'
+version: 0.0.1
+environment:
+  sdk: 3.3.4
+#  All dependents set on below
+dependencies:
+  logging: ^1.2.0
+  test: ^1.25.4
